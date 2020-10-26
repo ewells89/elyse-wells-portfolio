@@ -1,0 +1,52 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(32, 30, 34);
+    color:gainsboro;
+}
+
+nav {
+    margin-bottom:25px;
+}
+
+#navBanner {
+    height:15px;
+    background-color:rgb(150, 85, 120);
+    background-image: url("assets/navbanner.png");
+    
+}
+
+#navLinkInactive{
+    color:gainsboro;
+}
+
+#navLinkActive{
+    color:rgb(190, 105, 150); 
+}
+
+#nameLink {
+    text-align:center;
+    font-size:25px;
+    color:rgb(190, 105, 150); 
+}
+
+#info {
+    margin-bottom:25px;
+}
+
+h2 {
+    margin-bottom:30px;
+}
+
+#myPhoto {
+    width:100%
+    /* height:400px;
+    width:230px; */
+}
+
+hr {
+    border-top: 2px dotted rgb(190, 105, 150); 
+}
+#footBanner {
+    background-color:rgb(78, 43, 61);
+    background-image: url("assets/navbanner.png");
+}

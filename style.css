@@ -29,17 +29,49 @@ nav {
     color:rgb(190, 105, 150); 
 }
 
-#info {
-    margin-bottom:25px;
+div {
+    margin-bottom:0px;
+    margin-top:0px;
 }
 
-h2 {
-    margin-bottom:30px;
+.background {
+    height:800px;
+    background-color:rgb(150, 85, 120);
+    background-image: url("assets/body background.png");
+    width:100%;
+    background-position: center;
 }
 
-h4 {
-    font-weight:normal;
+#overlay {
+    /* display: none; Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 800px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    /* cursor: pointer; Add a pointer on hover */
+  }
+
+.intro {
+    font-size:25px;
+    border-radius:3px;
+    border-width:3px;
+    border: 3px solid white;
+    color:white;
     text-align:center;
+    
+    padding-top:400px;
+    margin:auto;
+    width:15%;
+
+}
+
+.bio {
+    padding-top:50px;
+    margin-bottom:30px;
 }
 
 #myPhoto {
@@ -49,8 +81,41 @@ h4 {
      */
 }
 
+h2 {
+    margin-bottom:30px;  
+}
+
+h3 {
+    font-weight:normal;
+    text-align:center;
+    color:rgb(190, 105, 150); 
+}
+
+h4 {
+    font-weight:normal;
+    color:rgb(190, 105, 150); 
+    margin-bottom:20px;
+}
+
 hr {
     border-top: 2px dotted rgb(190, 105, 150); 
+    margin:30px 0px;
+}
+
+
+#abilities {
+    background-color:rgb(58, 55, 61);
+    padding-top:50px;
+    padding-bottom:30px;
+}
+
+
+#starIcons{
+    color:rgb(190, 105, 150); 
+}
+
+.fixedBottom {
+    margin-top:30px;
 }
 
 #footContent{
@@ -67,8 +132,12 @@ hr {
 
 #icons {
     color:rgb(190, 105, 150); 
-    margin: 0px 3px;
+    margin: 0px 5px;
     font-size: 20px;
+}
+
+#skillRating {
+    text-align:right;
 }
 
 #icons:hover {
@@ -77,3 +146,12 @@ hr {
 }
 
 
+/* the media queries below are to designate specific breakpoints for mobile responsiveness */
+@media screen and (max-width:1650px) {
+    .ratings {
+        width: 100%;
+    }
+    .skillName {
+        margin-left:20px
+    }
+}

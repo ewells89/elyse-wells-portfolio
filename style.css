@@ -78,11 +78,8 @@ div {
 
 #stinger {
     font-size:20px;
-    color:white;
-    
-    
+    color:white;    
 }
-
 
 
 .bio {
@@ -126,7 +123,6 @@ hr {
 }
 
 #portfolio, #contact{
-    padding-top:50px;
     padding-bottom:30px;
 }
 
@@ -143,6 +139,9 @@ hr {
     margin:auto;
 }
 
+#education {
+    margin-bottom:30px;
+}
 #cardText {
     color:gainsboro;
     background-color:rgb(32, 30, 34);

@@ -138,6 +138,16 @@ hr {
     color:rgb(190, 105, 150); 
 }
 
+#project {
+    width:80%;
+    margin:auto;
+}
+
+#cardText {
+    color:gainsboro;
+    background-color:rgb(32, 30, 34);
+}
+
 .fixedBottom {
     margin-top:30px;
 }

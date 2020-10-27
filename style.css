@@ -109,6 +109,14 @@ hr {
     padding-bottom:30px;
 }
 
+#portfolio{
+    padding-top:50px;
+    padding-bottom:30px;
+}
+
+#skillRating {
+    text-align:right;
+}
 
 #starIcons{
     color:rgb(190, 105, 150); 
@@ -136,9 +144,6 @@ hr {
     font-size: 20px;
 }
 
-#skillRating {
-    text-align:right;
-}
 
 #icons:hover {
     color:rgb(225, 130, 180); 

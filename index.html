@@ -14,8 +14,24 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
+    <body data-spy="scroll" data-target="#navPane">
         <div class="row" id="navBanner"></div>
+
+        <!-- Scrollspy Nav Bar  -->
+
+
+        <nav id="navPane" class="navbar">          
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="#bio">About</a>
+              <a class="nav-link" href="#abilities">Abilities</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link" href="#experience">Experience</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </nav>
+          </nav>
+          <!-- <div data-spy="scroll" data-target="#navPane" data-offset="0"></div> -->
+
+
 
         <!-- Begin body content -->
 
@@ -34,7 +50,7 @@
         </section>
 
         <!-- Biographical Information Section -->
-        <section class="bio">
+        <section class="bio" id="bio">
             <div class="container">
                 <div class="row">
                     <div class="col-md-1"></div>
@@ -378,7 +394,7 @@
         </section>
 
         <!-- Portfolio section -->
-        <section id="portfolio">
+        <section id="portfolio" >
             <div class="container">
                 <div class="row">
                     <div class="col-md-3"></div>
@@ -417,6 +433,7 @@
                         <div class="card" id="project">
                             <img class="card-img-top" src="assets/projects/ISSProjectscreenshot01-index.png" alt="ISS tracker app screenshot">
                             <div class="card-body" id="cardText">
+                                <a href="https://ewells89.github.io/group-22-project1/"><h5>ISS Tracker</h5></a>
                             <p class="card-text">Application to track the current location of the International Space Station, local pass-over times based on user location, forecast for pass over times, live freed from the ISS, and information about the crew members aboard.</p>
                             </div>
                         </div>
@@ -449,6 +466,7 @@
                         <div class="card" id="project">
                             <img class="card-img-top" src="assets/projects/PasswordGeneratorscreenshot01.png" alt="password generator app screenshot">
                             <div class="card-body" id="cardText">
+                                <a href="https://ewells89.github.io/bootcamp-homework03-password-generator/"><h5>Password Generator</h5></a>
                             <p class="card-text">Application to randomly generate a password based on various prompts from the user, including mixed cases, special characters, and numbers.</p>
                             </div>
                         </div>
@@ -553,7 +571,7 @@
                     <div class="col-md-1"></div>
                     <div class="col-md-3">
                         <h5>Georgia Tech</h5>
-                        <p>Aug 2020 | Feb 2021</p>
+                        <p>Aug 2020 - Feb 2021</p>
                     </div>
                     <div class="col-md-7">
                         <h6>Full Stack Coding Boot Camp</h6>
@@ -607,6 +625,20 @@
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
                         <hr></hr>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+
+            <div class="container" id="ratings">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit libero velit aut nostrum dolore quidem, ut officiis deserunt voluptas in sunt non natus delectus, placeat impedit molestias et aperiam. Qui!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit libero velit aut nostrum dolore quidem, ut officiis deserunt voluptas in sunt non natus delectus, placeat impedit molestias et aperiam. Qui!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit libero velit aut nostrum dolore quidem, ut officiis deserunt voluptas in sunt non natus delectus, placeat impedit molestias et aperiam. Qui!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit libero velit aut nostrum dolore quidem, ut officiis deserunt voluptas in sunt non natus delectus, placeat impedit molestias et aperiam. Qui!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit libero velit aut nostrum dolore quidem, ut officiis deserunt voluptas in sunt non natus delectus, placeat impedit molestias et aperiam. Qui!</p>
                     </div>
                     <div class="col-md-1"></div>
                 </div>

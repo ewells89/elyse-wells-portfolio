@@ -4,9 +4,6 @@ body {
     color:gainsboro;
 }
 
-nav {
-    margin-bottom:25px;
-}
 
 #navBanner {
     height:15px;
@@ -15,18 +12,22 @@ nav {
     
 }
 
-#navLinkInactive{
-    color:silver;
+.navbar {
+    background-color:none;
+
 }
 
-#navLinkActive{
-    color:white;
+.active {
+    background-color:rgb(78, 43, 61) !important;
+    color:gainsboro !important;
 }
-
-#nameLink {
-    text-align:center;
-    font-size:20px;
-    color:rgb(190, 105, 150); 
+#navPane {
+    position:fixed;
+    right:40px;
+    top:40px;
+    z-index:2;
+    font-size:25px;
+    text-align:right;
 }
 
 div {
@@ -115,6 +116,18 @@ hr {
     margin:30px 0px;
 }
 
+a {
+    color: rgb(233, 99, 171); 
+}
+
+a:hover{
+    color:rgb(190, 105, 150); 
+    text-decoration:underline;
+}
+
+a:visited{
+    color:rgb(130, 40, 90); 
+}
 
 #abilities, #experience {
     background-color:rgb(58, 55, 61);

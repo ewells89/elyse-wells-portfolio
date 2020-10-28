@@ -14,7 +14,6 @@ body {
 
 .navbar {
     background-color:none;
-
 }
 
 .active {
@@ -197,5 +196,8 @@ a:visited{
     }
     .skillName {
         margin-left:20px
+    }
+    nav{
+        visibility:hidden;
     }
 }

@@ -87,11 +87,19 @@ div {
     margin-bottom:30px;
 }
 
+#picture{
+    padding-top:40px;
+    align-content:center
+}
+
 #myPhoto {
-    width:100%
+    width:100%;
+    border-radius:50%;
     /* height:400px;
     width:230px;
      */
+     border: 2px solid rgb(190, 105, 150); 
+     
 }
 
 h2 {
